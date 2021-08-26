@@ -37,30 +37,32 @@ body {
     opacity: 0;
  }
 }
+.Middle {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 1000px;
+  width: 1000px;
+}
  .cube {
-	 position: absolute;
 	 width: 100px;
 	 height: 100px;
-	 top: 50%;
-	 left: 50%;
-	 margin: -50px 0 0 -50px;
+   margin: auto;
+   margin-left: 0px;
+   margin-right: 20px;
 	 transform-style: preserve-3d;
 	 transition: all 1s;
 	 animation: rotate 5s infinite;
 }
 .AGI {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 44%;
-  left: 53%;
+  margin: auto;
+  padding-top: 50px;
+  margin-left: 0px;
 }
 .LOVE {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 37.5%;
-  left: 42%;
+  margin: auto;
+  padding-bottom: 55px;
+  margin-right: 0px;
 }
  .face {
 	 position: absolute;
@@ -139,8 +141,6 @@ body {
   font-family: webfont;
   margin: 0px;
   color: white;
-  padding: 33px;
-  padding-left: 20px;
 }
 .AGILOVE {
   font-size: 90px;
