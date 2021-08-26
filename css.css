@@ -52,7 +52,7 @@ body {
    margin-right: 20px;
 	 transform-style: preserve-3d;
 	 transition: all 1s;
-	 animation: rotate 5s infinite;
+	 animation: rotate 10s infinite;
 }
 .AGI {
   margin: auto;
@@ -132,8 +132,8 @@ body {
    font-family: webfont;
 	 margin: 0px;
 	 color: white;
-   padding: 33px;
-   padding-left: 38px;
+   padding: 32px;
+   padding-left: 33px;
 	 transform: translateY(-8%);
 }
 .AGIText {
@@ -150,7 +150,7 @@ body {
   padding-left: 20px;
   transform: rotateY(180deg);
   font-family: 'Source Sans Pro', sans-serif;
-  animation: show 5s infinite;
+  animation: show 10s infinite;
 }
  @-webkit-keyframes glow {
 	 0% {
